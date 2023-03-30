@@ -1,0 +1,17 @@
+Usage:
+
+python receiver.py [Receive IP] [Receive port] [Window size]
+python sender.py [Receive IP] [Receive port] [Window size]
+
+for example:
+python receiver.py 127.0.0.1 5050 4
+python sender.py 127.0.0.1 5050 4
+
+sender.py : Code for read the document and sending packets
+receiver.py : Sending ACK, receive packets and write received data to file
+Utility: classes for header, data packets, UnreliableSocket and some helping functions
+RDTSocket: inherit UnreliableSocket, the implementation of the sockets
+alice.txt: document to be sent
+download.txt: document received from the sender
+
+
