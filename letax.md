@@ -26,3 +26,5 @@ $$=J(W)+\lambda||W||_2$$
 
 $$\dfrac{dW}{dL(W, \lambda)}=\dfrac{dW}{dL'(W, \lambda)}$$
 
+
+$$MAE=\dfrac{1}{|R|}\sum_{\hat{r_{ui}}\in R}|r_{ui}-\hat{r_{ui}}|$$
